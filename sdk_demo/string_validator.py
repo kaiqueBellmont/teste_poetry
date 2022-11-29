@@ -1,5 +1,6 @@
 class SimpleStringValidator:
-    def simple_string_validator(self, value):
+    @staticmethod
+    def simple_string_validator(value):
         if not isinstance(value, str):
             raise TypeError
         return True

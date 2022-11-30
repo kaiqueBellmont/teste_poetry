@@ -8,6 +8,11 @@ class SimpleStringValidator:
             raise ValueError("Erro de comparação entre tipos")
         finally:
             return False
+
     @staticmethod
     def ryan():
         print("Ryan de outro repositorio")
+
+    @staticmethod
+    def multiplica(a, b):
+        return a * b
